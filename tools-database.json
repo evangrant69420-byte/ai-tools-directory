@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-03-31T14:47:56.651571",
-    "total_tools": 15,
+    "last_updated": "2026-03-31T18:41:21.083763",
+    "total_tools": 17,
     "categories": [
       "Text & Writing",
       "Image & Art",
@@ -184,6 +184,28 @@
       "url": "https://poe.com",
       "pricing": "Freemium",
       "id": "tool-015",
+      "date_added": "2026-03-31",
+      "is_new": true,
+      "featured": false
+    },
+    {
+      "name": "Replicate",
+      "description": "Run machine learning models in the cloud with one line of code.",
+      "category": "Code & Development",
+      "url": "https://replicate.com",
+      "pricing": "Pay-per-use",
+      "id": "tool-016",
+      "date_added": "2026-03-31",
+      "is_new": true,
+      "featured": false
+    },
+    {
+      "name": "Synthesia",
+      "description": "Create AI videos with virtual presenters from text.",
+      "category": "Video & Animation",
+      "url": "https://www.synthesia.io",
+      "pricing": "Paid",
+      "id": "tool-017",
       "date_added": "2026-03-31",
       "is_new": true,
       "featured": false
