@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-03-31T18:41:21.083763",
-    "total_tools": 17,
+    "last_updated": "2026-03-31T18:43:21.111166",
+    "total_tools": 27,
     "categories": [
       "Text & Writing",
       "Image & Art",
@@ -206,6 +206,116 @@
       "url": "https://www.synthesia.io",
       "pricing": "Paid",
       "id": "tool-017",
+      "date_added": "2026-03-31",
+      "is_new": true,
+      "featured": false
+    },
+    {
+      "name": "Stable Diffusion",
+      "description": "Open-source image generation model with local and cloud options.",
+      "category": "Image & Art",
+      "url": "https://stability.ai",
+      "pricing": "Freemium",
+      "id": "tool-018",
+      "date_added": "2026-03-31",
+      "is_new": true,
+      "featured": false
+    },
+    {
+      "name": "Grammarly",
+      "description": "AI-powered writing assistant for grammar and style improvements.",
+      "category": "Text & Writing",
+      "url": "https://www.grammarly.com",
+      "pricing": "Freemium",
+      "id": "tool-020",
+      "date_added": "2026-03-31",
+      "is_new": true,
+      "featured": false
+    },
+    {
+      "name": "Otter.ai",
+      "description": "AI meeting assistant that records and transcribes conversations.",
+      "category": "Audio & Voice",
+      "url": "https://otter.ai",
+      "pricing": "Freemium",
+      "id": "tool-022",
+      "date_added": "2026-03-31",
+      "is_new": true,
+      "featured": false
+    },
+    {
+      "name": "Hugging Face",
+      "description": "Platform for sharing and deploying machine learning models.",
+      "category": "Code & Development",
+      "url": "https://huggingface.co",
+      "pricing": "Freemium",
+      "id": "tool-024",
+      "date_added": "2026-03-31",
+      "is_new": true,
+      "featured": false
+    },
+    {
+      "name": "Copy.ai",
+      "description": "AI copywriting tool for marketing content and sales copy.",
+      "category": "Marketing & SEO",
+      "url": "https://www.copy.ai",
+      "pricing": "Freemium",
+      "id": "tool-026",
+      "date_added": "2026-03-31",
+      "is_new": true,
+      "featured": false
+    },
+    {
+      "name": "Descript",
+      "description": "AI-powered audio/video editor with transcription and overdub.",
+      "category": "Audio & Voice",
+      "url": "https://www.descript.com",
+      "pricing": "Freemium",
+      "id": "tool-028",
+      "date_added": "2026-03-31",
+      "is_new": true,
+      "featured": false
+    },
+    {
+      "name": "Anthropic Console",
+      "description": "Developer platform for building with Claude AI models.",
+      "category": "Code & Development",
+      "url": "https://console.anthropic.com",
+      "pricing": "Pay-per-use",
+      "id": "tool-030",
+      "date_added": "2026-03-31",
+      "is_new": true,
+      "featured": false
+    },
+    {
+      "name": "LangChain",
+      "description": "Framework for building applications with large language models.",
+      "category": "Code & Development",
+      "url": "https://www.langchain.com",
+      "pricing": "Open Source",
+      "id": "tool-032",
+      "date_added": "2026-03-31",
+      "is_new": true,
+      "featured": false
+    },
+    {
+      "name": "Fireflies.ai",
+      "description": "AI meeting notetaker that transcribes and summarizes calls.",
+      "category": "Automation & Productivity",
+      "url": "https://fireflies.ai",
+      "pricing": "Freemium",
+      "id": "tool-034",
+      "date_added": "2026-03-31",
+      "is_new": true,
+      "featured": false
+    },
+    {
+      "name": "Beautiful.ai",
+      "description": "AI presentation maker that designs slides automatically.",
+      "category": "Automation & Productivity",
+      "url": "https://www.beautiful.ai",
+      "pricing": "Freemium",
+      "id": "tool-036",
       "date_added": "2026-03-31",
       "is_new": true,
       "featured": false
