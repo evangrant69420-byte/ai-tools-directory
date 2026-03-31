@@ -327,20 +327,20 @@ def add_tools_to_database(data: Dict, new_tools: List[Dict]) -> int:
 
 
 def main():
-    print("🤖 AI Tools Directory Auto-Updater")
+    print("AI Tools Directory Auto-Updater")
     print("=" * 50)
     
     # Load existing database
     data = load_database()
     existing_count = len(data["tools"])
-    print(f"📊 Current tools in database: {existing_count}")
+    print(f"Current tools in database: {existing_count}")
     
     # Try to scrape from various sources
     new_tools = []
     sources_attempted = []
     
     # Attempt 1: GitHub Trending
-    print("\n🔍 Scraping GitHub Trending...")
+    print("\nScraping GitHub Trending...")
     github_tools = scrape_github_trending()
     if github_tools:
         new_tools.extend(github_tools)
@@ -348,7 +348,7 @@ def main():
         print(f"  Found {len(github_tools)} potential tools")
     
     # Attempt 2: Product Hunt
-    print("🔍 Scraping Product Hunt...")
+    print("Scraping Product Hunt...")
     ph_tools = scrape_product_hunt()
     if ph_tools:
         new_tools.extend(ph_tools)
@@ -360,7 +360,7 @@ def main():
     needed = TOOLS_TO_ADD_PER_RUN - len(new_tools)
     
     if needed > 0:
-        print(f"\n📦 Using {needed} tools from fallback list...")
+        print(f"\nUsing {needed} tools from fallback list...")
         fallback = get_fallback_tools(needed, existing_names)
         new_tools.extend(fallback)
         sources_attempted.append("FallbackDB")
@@ -375,17 +375,17 @@ def main():
         # Save updated database
         save_database(data)
         log_update(added, " + ".join(sources_attempted), f"Added tools: {[t['name'] for t in new_tools[:added]]}")
-        print(f"\n✅ Successfully added {added} new tools!")
-        print(f"📈 Total tools now: {len(data['tools'])}")
-        print(f"📝 Sources: {', '.join(sources_attempted)}")
+        print(f"\nSuccessfully added {added} new tools!")
+        print(f"Total tools now: {len(data['tools'])}")
+        print(f"Sources: {', '.join(sources_attempted)}")
         print(f"\nNew tools added:")
         for tool in new_tools[:added]:
             print(f"  • {tool['name']} ({tool['category']})")
     else:
-        print("\n⚠️ No new tools added (all were duplicates or no tools found)")
+        print("\nNo new tools added (all were duplicates or no tools found)")
         log_update(0, "None", "No new unique tools found")
     
-    print(f"\n🕐 Last updated: {data['metadata']['last_updated']}")
+    print(f"\nLast updated: {data['metadata']['last_updated']}")
     return 0 if added > 0 else 1
 
 
