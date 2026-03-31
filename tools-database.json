@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2026-03-31T00:00:00Z",
+    "total_tools": 100,
+    "categories": [
+      "Text & Writing",
+      "Image & Art",
+      "Code & Development",
+      "Audio & Voice",
+      "Video & Animation",
+      "Data & Analytics",
+      "Chatbots & Assistants",
+      "Automation & Productivity",
+      "Search & Research",
+      "Marketing & SEO"
+    ],
+    "update_schedule": "Daily at midnight UTC",
+    "source_urls": [
+      "https://github.com/trending",
+      "https://www.producthunt.com/topics/artificial-intelligence",
+      "https://alternativeto.net/platform/artificial-intelligence/"
+    ]
+  },
+  "tools": [
+    {
+      "id": "tool-001",
+      "name": "ChatGPT",
+      "description": "OpenAI's conversational AI assistant for text generation, coding help, and general questions.",
+      "category": "Chatbots & Assistants",
+      "url": "https://chat.openai.com",
+      "pricing": "Freemium",
+      "date_added": "2026-03-31",
+      "is_new": false,
+      "featured": true
+    },
+    {
+      "id": "tool-002",
+      "name": "Claude",
+      "description": "Anthropic's AI assistant with strong reasoning and long context capabilities.",
+      "category": "Chatbots & Assistants",
+      "url": "https://claude.ai",
+      "pricing": "Freemium",
+      "date_added": "2026-03-31",
+      "is_new": false,
+      "featured": true
+    },
+    {
+      "id": "tool-003",
+      "name": "Midjourney",
+      "description": "AI image generation through Discord, known for artistic and detailed outputs.",
+      "category": "Image & Art",
+      "url": "https://www.midjourney.com",
+      "pricing": "Paid",
+      "date_added": "2026-03-31",
+      "is_new": false,
+      "featured": true
+    },
+    {
+      "id": "tool-004",
+      "name": "GitHub Copilot",
+      "description": "AI pair programmer that suggests code completions and entire functions.",
+      "category": "Code & Development",
+      "url": "https://github.com/features/copilot",
+      "pricing": "Paid",
+      "date_added": "2026-03-31",
+      "is_new": false,
+      "featured": true
+    },
+    {
+      "id": "tool-005",
+      "name": "DALL-E 3",
+      "description": "OpenAI's image generation model with excellent text understanding.",
+      "category": "Image & Art",
+      "url": "https://openai.com/dall-e-3",
+      "pricing": "Paid",
+      "date_added": "2026-03-31",
+      "is_new": false,
+      "featured": false
+    },
+    {
+      "id": "tool-006",
+      "name": "Jasper",
+      "description": "AI writing assistant focused on marketing copy and content creation.",
+      "category": "Text & Writing",
+      "url": "https://www.jasper.ai",
+      "pricing": "Paid",
+      "date_added": "2026-03-31",
+      "is_new": false,
+      "featured": false
+    },
+    {
+      "id": "tool-007",
+      "name": "ElevenLabs",
+      "description": "AI voice synthesis with realistic text-to-speech capabilities.",
+      "category": "Audio & Voice",
+      "url": "https://elevenlabs.io",
+      "pricing": "Freemium",
+      "date_added": "2026-03-31",
+      "is_new": false,
+      "featured": true
+    },
+    {
+      "id": "tool-008",
+      "name": "Runway ML",
+      "description": "AI video editing and generation platform with Gen-2 video model.",
+      "category": "Video & Animation",
+      "url": "https://runwayml.com",
+      "pricing": "Paid",
+      "date_added": "2026-03-31",
+      "is_new": false,
+      "featured": true
+    },
+    {
+      "id": "tool-009",
+      "name": "Notion AI",
+      "description": "AI writing and summarization built into Notion workspaces.",
+      "category": "Automation & Productivity",
+      "url": "https://www.notion.so/product/ai",
+      "pricing": "Paid",
+      "date_added": "2026-03-31",
+      "is_new": false,
+      "featured": false
+    },
+    {
+      "id": "tool-010",
+      "name": "Perplexity AI",
+      "description": "AI search engine that provides cited answers to complex questions.",
+      "category": "Search & Research",
+      "url": "https://www.perplexity.ai",
+      "pricing": "Freemium",
+      "date_added": "2026-03-31",
+      "is_new": false,
+      "featured": true
+    }
+  ]
+}

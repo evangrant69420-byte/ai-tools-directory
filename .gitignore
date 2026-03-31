@@ -1,0 +1,12 @@
+# Ignore everything except AI Tools Directory files
+*
+
+# Allow AI Tools specific files
+!tools-database.json
+!update_tools.py
+!update_log.jsonl
+!README.md
+!.gitignore
+!.github/
+!.github/workflows/
+!.github/workflows/update-tools.yml
