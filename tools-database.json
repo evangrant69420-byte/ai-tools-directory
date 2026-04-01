@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-03-31T20:16:29.141914",
-    "total_tools": 130,
+    "last_updated": "2026-04-01T06:47:16.558000",
+    "total_tools": 134,
     "categories": [
       "Music & Audio",
       "Images & Design",
@@ -1446,6 +1446,50 @@
       "date_added": "2026-03-31",
       "is_new": true,
       "featured": false
+    },
+    {
+      "id": "tool-131",
+      "name": "Google Stitch MCP",
+      "description": "AI-powered UI design tool that generates complete UI designs and frontend code from text prompts. MCP server integration allows AI agents to create designs directly. Features Design DNA extraction for consistent branding across screens.",
+      "category": "Images & Design",
+      "url": "https://stitch.withgoogle.com",
+      "pricing": "Free",
+      "date_added": "2026-04-01",
+      "is_new": true,
+      "featured": true
+    },
+    {
+      "id": "tool-132",
+      "name": "Nano Banana 2",
+      "description": "Google's Gemini 3.1 Flash Image model for AI image generation and editing. Features precise text rendering, subject consistency (5 characters + 14 objects), natural language photo editing, and real-time web search integration. Resolutions from 512px to 4K.",
+      "category": "Images & Design",
+      "url": "https://gemini.google.com",
+      "pricing": "Freemium",
+      "date_added": "2026-04-01",
+      "is_new": true,
+      "featured": true
+    },
+    {
+      "id": "tool-133",
+      "name": "Google Stitch MCP",
+      "description": "AI-powered UI design tool that generates complete UI designs and frontend code from text prompts. MCP server integration allows AI agents to create designs directly. Features Design DNA extraction for consistent branding across screens.",
+      "category": "Images & Design",
+      "url": "https://stitch.withgoogle.com",
+      "pricing": "Free",
+      "date_added": "2026-04-01",
+      "is_new": true,
+      "featured": true
+    },
+    {
+      "id": "tool-134",
+      "name": "Nano Banana 2",
+      "description": "Google's Gemini 3.1 Flash Image model for AI image generation and editing. Features precise text rendering, subject consistency (5 characters + 14 objects), natural language photo editing, and real-time web search integration. Resolutions from 512px to 4K.",
+      "category": "Images & Design",
+      "url": "https://gemini.google.com",
+      "pricing": "Freemium",
+      "date_added": "2026-04-01",
+      "is_new": true,
+      "featured": true
     }
   ]
 }
